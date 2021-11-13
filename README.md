@@ -4,7 +4,7 @@ I clone the github and try to run the code to play the function.
 
 Source: https://github.com/kiteco/python-youtube-code/tree/master/Deepfake-detection  
 
-I test my picture and try to read the paper for some segments.
+I test my picture and read a little bit of information about the model in the paper.
 
 The model Architecture for MesoNet.
 
