@@ -1,6 +1,6 @@
 # Deepfake_Detecion_Web
 
-I wrtie a web to detect the deep fake picture.
+I wrtie a simple web to upload picture and detect deep fake pictures by tensorflow api.
 
 The result I implement to my picture.
 ![image](https://user-images.githubusercontent.com/76461262/146398620-4ffc01fa-840f-462c-a86c-f1fc023d0d27.png)
