@@ -1,4 +1,4 @@
-# Deep_Fake_Detecion_API
+# DeepFake_Detecion_Web
 
 I wrtie a web to detect the deep fake picture.
 
