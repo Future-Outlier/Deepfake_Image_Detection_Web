@@ -1,8 +1,12 @@
 # Deep_Fake_Detecion_API
 
-I clone the github and try to run the code to play the function.
+I wrtie a web to detect the deep fake picture.
 
-Source: https://github.com/kiteco/python-youtube-code/tree/master/Deepfake-detection  
+The result I implement to my picture.
+![image](https://user-images.githubusercontent.com/76461262/146398620-4ffc01fa-840f-462c-a86c-f1fc023d0d27.png)
+![image](https://user-images.githubusercontent.com/76461262/146398647-bcab0819-28b4-4d9d-95c4-78dc3b708cd9.png)
+![image](https://user-images.githubusercontent.com/76461262/146398667-78c07941-aee4-4dcc-9b4b-52cfd3f7afc7.png)
+![image](https://user-images.githubusercontent.com/76461262/146398681-575fea16-832a-4dce-bce6-4265ef39e804.png)
 
 I test my picture and read a little bit of information about the model in the paper.
 
@@ -10,10 +14,7 @@ The model Architecture for MesoNet.
 
 ![image](https://user-images.githubusercontent.com/76461262/141642624-62dc2b40-f635-4f5c-b1ce-dd4b184feacf.png)
 
-The result I implement to my picture.
+I clone the github, try to run the code and play the function.
 
-![image](https://user-images.githubusercontent.com/76461262/141642640-c884d8ee-eeef-4c51-9ea3-e56a97a5f67d.png)
-
-![image](https://user-images.githubusercontent.com/76461262/141642645-e31b675a-90a7-4254-80e2-00c84454148f.png)
-
+Source: https://github.com/kiteco/python-youtube-code/tree/master/Deepfake-detection  
 
