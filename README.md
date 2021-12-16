@@ -1,4 +1,4 @@
-# DeepFake_Detecion_Web
+# Deepfake_Detecion_Web
 
 I wrtie a web to detect the deep fake picture.
 
