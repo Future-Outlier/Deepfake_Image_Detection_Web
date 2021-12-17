@@ -14,7 +14,3 @@ The model Architecture for MesoNet.
 
 ![image](https://user-images.githubusercontent.com/76461262/141642624-62dc2b40-f635-4f5c-b1ce-dd4b184feacf.png)
 
-I clone the github, try to run the code and play the function.
-
-Source: https://github.com/kiteco/python-youtube-code/tree/master/Deepfake-detection  
-
