@@ -1,6 +1,6 @@
 # Deepfake_Image_Detection_Web
 ## Project Description
-Detect deepfake pictures on web by using Mesonet pretrained weights by MesoNet paper and using Flask API.
+Detect deepfake pictures on web by using MesoNet pretrained weights by MesoNet paper and using Flask API.
 
 Model Source: https://github.com/DariusAf/MesoNet
 ## How to run the project?
