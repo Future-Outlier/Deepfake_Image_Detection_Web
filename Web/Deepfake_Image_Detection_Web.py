@@ -6,6 +6,10 @@ from Deepfake_Detection import *
 import base64
 
 app = Flask(__name__)
+UPLOAD_FOLDER = './test'
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+
 
 @app.route("/", methods=["GET"]) # with the below function, route ("") is the url of file 
 def index():
@@ -15,12 +19,17 @@ def index():
 def upload():
     file = request.files["file"]
     filename = file.filename
-    full_path = os.path.join("D:/Programming/Machine_Learning/Deep_Fake_Detection/Web/test", filename)
+    full_path = os.path.join(UPLOAD_FOLDER, filename)
     file.save(full_path)
+
     test_dataGenerator = ImageDataGenerator(rescale=1./255)
     img = cv2.imread(full_path)
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    img = cv2.resize(img, (256, 256)) / 255.
+    if img is None:
+        os.remove(full_path)
+        return "Error: Unable to read the uploaded image. Please try again with a valid image file."
+
+    # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = cv2.resize(img, (256, 256)) / 255. 
     img = np.asarray([img], dtype=np.float32)
     # Instantiating generator to feed images through the network
     # test_generator = test_dataGenerator.flow_from_directory("D:\\Programming\\Machine_Learning\\Deep_Fake_Detection\\Web\\test",target_size=(256, 256),
